@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: orangered;
+    height: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    padding: 20px;
+}
+.logo{
+    float: left;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+.logo span{
+    color: rgb(68, 152, 8);
+}
+.dropdown{
+    float: right;
+    width: 78%;
+    color: red;
+}
+.barra li{
+    list-style: none;
+    display: inline-block;
+}
+.barra a{
+    text-decoration: none;
+    color: rgb(108, 78, 26);
+}
+.barra a:hover{
+    color: #333;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/img/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.marca{
+    float: left;
+    padding: 30px;
+}
+
+.call{
+    color: azure;
+    float: right;
+    background-color: rgb(51, 51, 51, 0.5);
+    border: 2px solid orange;
+    margin: 4%;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+}
+
+h1{
+    color: orange;
+    margin-bottom: 20px;
+}
+.call p{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.call a{
+    color: orange;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 7px;
+}
+.call a:hover{
+    background-color: #333;
+    transition: all 0.8s;
+    border: 2px solid orange;
+}
+h2{
+    background-color: orange;
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+/*.productos conteiner-fluid{
+    height: 50px;
+    position: center;
+}*/
+.sec{
+    height: 500px;
+    width: 100%;
+    background-color: #333;
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.item{
+    height: 120px;
+    width: 120px;
+    background-color: orange;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 120px;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-transform: capitalize;
+}
+footer p{
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+footer i{
+    color: rgb(125, 7, 7);
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+.subir{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    border: 22px;
+    font-size: 22px;
+}
